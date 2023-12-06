@@ -10,7 +10,7 @@
         "Results": []
     };
     // edge case:
-    if (searchTerm === "") {
+    if (searchTerm === "" || searchTerm = " ") {
         let message =  'Insert a valid search term';
         return message;
     }
